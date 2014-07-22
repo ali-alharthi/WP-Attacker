@@ -120,6 +120,7 @@ function wp($list){
         $ch = curl_init($site);
         curl_setopt($ch, CURLOPT_HEADER, 0);
         curl_setopt($ch,CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)"); 
         $result = curl_exec($ch);
         curl_exec($ch);
         curl_close($ch);
@@ -144,6 +145,7 @@ function wp_em($list){
         $ch = curl_init($wpsite);
         curl_setopt($ch, CURLOPT_HEADER, 0);
         curl_setopt($ch,CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)"); 
         $result = curl_exec($ch);
         curl_exec($ch);
         curl_close($ch);
@@ -183,6 +185,7 @@ function xp_scanner($target,$list){
         $ch = curl_init($target.'/'.$x[1]);
         curl_setopt($ch, CURLOPT_HEADER, 0);
         curl_setopt($ch,CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)"); 
         $result = curl_exec($ch);
         curl_exec($ch);
         curl_close($ch);
@@ -249,11 +252,23 @@ $log4 = fopen("vuln.txt","w");fclose($log4);
 ###############################
 ##  SHIT IS GETTIN' REAL =P  ##
 ###############################
+print "\nDORK [or simply leave it empty] # ";
+$dork = trim(fgets(STDIN));
 print "\n[+] Getting the server's sites";
-bing_it("ip:$target");
-bing_it("ip:".$target." /page_id=",0);
-bing_it("ip:".$target." Wordpress",0);
-bing_it("ip:".$target." blog",0);
+if($dork == ""){
+    #########################
+    ##  IF DORK WAS EMPTY  ##
+    #########################
+    bing_it("ip:$target");
+    bing_it("ip:".$target." /page_id=");
+    bing_it("ip:".$target." Wordpress");
+    bing_it("ip:".$target." blog");
+}else{
+    ###########################
+    ##  USE THE USER'S DORK  ##
+    ###########################
+    bing_it("ip:".$target." ".$dork);
+}
 print "\n[-] Got'em";sleep(1);
 print "\n[+] Separating the sites";
 wp('sites.txt');
