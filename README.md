@@ -1,20 +1,28 @@
-WP-Attacker
+WP-Attacker V3
 ===========
 
-    WP Attacker v.2 Copyright (C) 2014
+    
+          ██████╗ ██████╗  ██████╗ ██╗   ██╗██████╗     ██╗  ██╗██████╗ 
+         ██╔════╝ ██╔══██╗██╔═══██╗██║   ██║██╔══██╗    ╚██╗██╔╝██╔══██╗
+         ██║  ███╗██████╔╝██║   ██║██║   ██║██████╔╝     ╚███╔╝ ██████╔╝
+         ██║   ██║██╔══██╗██║   ██║██║   ██║██╔═══╝      ██╔██╗ ██╔═══╝ 
+         ╚██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║         ██╔╝ ██╗██║     
+          ╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝         ╚═╝  ╚═╝╚═╝ ALM3REFH.COM 
+
+    WP Attacker v3 © Group XP 2014
     
     Coder : Hannibal Ksa (@r00t3rz)
-    Forum : alm3refh.com
+    Home  : alm3refh.com
     
     What's WP Attacker:
     - Scan the server's websites, and filter the ones that are using WorePress (Using Bing search engin [API]).
-    - Get All the possible plugins and themese, which are vulnerable (Using a list). *NEW*
-    - Get All the possible plugins and themese, which are vulnerable (Using security websites). *UNDERGROUND*
-    - BruteForce (Using a correct username and a passwords list). *UNDERGROUND*
+    - Get All the possible plugins and themese, which are vulnerable (Using a list).
+    - BruteForce each website that uses Wordpress (Using a correct username and a passwords list). *NEW* *BETA*
+    - Get All the possible plugins, which are vulnerable (Using security dbs). *NEW* *BETA*
     - Exploit 'em (With the vulnerable that has been found). *UNDERGROUND*
     
     Why WP Attacker?
-    - Using Bing API, Which leads to faster&guaranteed responde.
+    - Using Bing API, Which leads to faster & guaranteed responde.
     - User can use his own 0day exploits.
     - List can be updated by the user.
     - Simple and easy.
@@ -26,9 +34,8 @@ WP-Attacker
     - THE AUTHOR CANNOT AND WILL NOT IN ANY WAY LIABLE FOR ANY LOSS OR DAMAGE ARISING WITH THE USE OF THIS TOOL.
     - USE IT UNDER YOUR OWN RISK!
     - IF YOU DON'T AGREE WITH WHAT I SAID, PLEASE DON'T USE THIS TOOL.
-
+    
     Thanks and enjoy.
     
-    Although, Happy Eid to all my Muslim (Sunni) brothers.
-    Stay tuned for our next projects!
-    Ali (aka Hannibal Ksa).
+    And stay tuned!
+    Best regards, Ali (aka Hannibal Ksa).
