@@ -630,7 +630,7 @@ foreach($get as $hk){
 ###########################
 ##   GIVE ME AN OPTION   ##
 ###########################
-print "\n\n\n[1] PLUGINS/THEMES SCANNER. (FROM A LIST)\n[2] PLUGINS SCANNER. (FROM A SECURITY DBS)\n[3] BRUTE FORCE.\n[4] EXIT/QUIT.\n\n";
+print "\n\n\n[1] PLUGINS/THEMES SCANNER. (FROM A LIST)\n[2] PLUGINS/THEMES SCANNER. (FROM A SECURITY DBS)\n[3] BRUTE FORCE.\n[4] EXIT/QUIT.\n\n";
 print "\nWHAT WOULD YOU LIKE TO DO ? [1,2,3,4] : ";
 $what = trim(fgets(STDIN));
 $choice = array("1","2","3","4");
