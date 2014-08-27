@@ -1,4 +1,4 @@
-WP-Attacker V3
+WP-Attacker V4
 ===========
 
     © Group XP 2014
@@ -8,16 +8,18 @@ WP-Attacker V3
     
     What's WP Attacker:
     - Scan the server's websites, and filter the ones that are using WorePress (Using Bing search engin [API]).
-    - Get All the possible plugins and themese, which are vulnerable (Using a list).
-    - BruteForce each website that uses Wordpress (Using a correct username and a passwords list). *NEW* *BETA*
-    - Get All the possible plugins, which are vulnerable (Using security dbs). *NEW* *BETA*
-    - Exploit 'em (With the vulnerable that has been found). *UNDERGROUND*
+    - Get All the possible plugins and themese, which are vulnerable (Using a list). *UPDATED*
+    - BruteForce each website that uses Wordpress (Using a correct username and a passwords list).
+    - BruteForce each website that uses Wordpress (via XMLRPC's file using a correct username). *NEW*
+    - Get All the possible plugins and themes, which are vulnerable (Using security dbs). *UPDATED*
+    - Exploit 'em (Using more than 20 new/0day exploits). *UNDERGROUND*
     
     Why WP Attacker?
     - Using Bing API, Which leads to faster & guaranteed responde.
     - User can use his own 0day exploits.
+    - BruteForce with two methods/ways.
     - List can be updated by the user.
-    - Simple and easy.
+    - Fast, simple and easy.
     
     # In a simple word, it is an "Automatic WP Exploiter".
     
