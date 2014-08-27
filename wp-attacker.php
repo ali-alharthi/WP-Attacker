@@ -159,7 +159,7 @@ function bing_it($hk){
     ##   REPLACE [ $account_key ] VALUE WITH YOUR [ BING API ACCOUNT KEY ]   ##
     ##  MORE INFO [ https://datamarket.azure.com/dataset/bing/search ]       ##
     ###########################################################################
-    $account_key = 'FvQNhc+xEFUlSM7nMCqy7U627Oi4MiAnwK+X/oWhPGk';
+    $account_key = 'ACCOUNT_KEY_GOES_HERE';
     $query = $hk;
     $url = "https://api.datamarket.azure.com/Bing/Search/v1/Web?Query=".urlencode("'$query'")."&\$format=json";
     $ch = curl_init();
