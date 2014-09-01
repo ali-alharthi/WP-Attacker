@@ -463,7 +463,7 @@ function xp_brute($target,$user,$list){
             $write = fputs($fp, $data."\n");
             fclose($fp);
             break;
-        }else{ print "\n[+] Trying $user:$password"; }
+        }#else{ print "\n[+] Trying $user:$password"; }
     }
 }
 function xp_check_xmlrpc($target){
@@ -534,7 +534,7 @@ function xp_brute_xmlrpc($target,$user,$list){
                 $write = fputs($fp, $data."\n");
                 fclose($fp);
                 break;
-            }else{ print "\n[+] Trying $user:$password"; }
+            }#else{ print "\n[+] Trying $user:$password"; }
         }
     }
 }
