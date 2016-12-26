@@ -1,15 +1,6 @@
 <?php
 /*
     
-    
-              ██████╗ ██████╗  ██████╗ ██╗   ██╗██████╗     ██╗  ██╗██████╗ 
-             ██╔════╝ ██╔══██╗██╔═══██╗██║   ██║██╔══██╗    ╚██╗██╔╝██╔══██╗
-             ██║  ███╗██████╔╝██║   ██║██║   ██║██████╔╝     ╚███╔╝ ██████╔╝
-             ██║   ██║██╔══██╗██║   ██║██║   ██║██╔═══╝      ██╔██╗ ██╔═══╝ 
-             ╚██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║         ██╔╝ ██╗██║     
-              ╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝         ╚═╝  ╚═╝╚═╝ ALM3REFH.COM 
-    
-    
     ██╗    ██╗██████╗      █████╗ ████████╗████████╗ █████╗  ██████╗██╗  ██╗███████╗██████╗ 
     ██║    ██║██╔══██╗    ██╔══██╗╚══██╔══╝╚══██╔══╝██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗
     ██║ █╗ ██║██████╔╝    ███████║   ██║      ██║   ███████║██║     █████╔╝ █████╗  ██████╔╝
@@ -17,10 +8,10 @@
     ╚███╔███╔╝██║         ██║  ██║   ██║      ██║   ██║  ██║╚██████╗██║  ██╗███████╗██║  ██║
      ╚══╝╚══╝ ╚═╝         ╚═╝  ╚═╝   ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ FORTH VERSION
     
-    WP Attacker v4 © Group XP 2014
+    WP Attacker v4 © R00T3Rz 2014
     
-    Coder : Hannibal Ksa (@r00t3rz)
-    Home  : alm3refh.com, sec4ever.com
+    Coder : Ali (@r00t3rz)
+    Home  : R00T3Rz.com
     
     
     What's WP Attacker:
@@ -49,7 +40,7 @@
     Thanks and enjoy.
     
     And stay tuned!
-    Best regards, Ali (aka Hannibal Ksa).
+    Best regards, Ali.
     
 */
 error_reporting(0);
@@ -67,7 +58,7 @@ function clear(){
 }
 function banner(){
     ##########################################################
-    ##    BANNERS/COPYRIGHTS  R00T3RZ.COM & ALM3REFH.COM    ##
+    ##    BANNERS/COPYRIGHTS  R00T3RZ.COM                   ##
     ##   REMOVING THIS WILL ONLY MAKES YOU A "DOUCHEBAG!"   ##
     ##########################################################
     ####################
@@ -77,7 +68,7 @@ function banner(){
     $bannerone .="\n\t | | /| / / _ \  / _ /_  __/_  __/ _ |/ ___/ //_/ __/ _ \\";
     $bannerone .="\n\t | |/ |/ / ___/ / __ |/ /   / / / __ / /__/ ,< / _// , _/";
     $bannerone .="\n\t |__/|__/_/    /_/ |_/_/   /_/ /_/ |_\___/_/|_/___/_/|_| \n";
-    $bannerone .="\n\t\t    WP Attacker v4 - By Hannibal Ksa\n\n\n";
+    $bannerone .="\n\t\t    WP Attacker v4 - R00T3Rz\n\n\n";
     #####################
     ##  SECOND BANNER  ##
     #####################
@@ -89,7 +80,7 @@ function banner(){
     $bannertwo .="\n\t\ \((_)/ /| _ \   (_)_\(_) |_| |_((_)_ ((_) |(_|_))  ((_) ";
     $bannertwo .="\n\t \ \/\/ / |  _/    / _ \ |  _|  _/ _` / _|| / // -_)| '_| ";
     $bannertwo .="\n\t  \_/\_/  |_|     /_/ \_\ \__|\__\__,_\__||_\_\\\\___||_|   \n";
-    $bannertwo .="\n\t\t    WP Attacker v4 - By Hannibal Ksa\n\n\n";
+    $bannertwo .="\n\t\t    WP Attacker v4 - R00T3Rz\n\n\n";
     ####################
     ##  THIRD BANNER  ##
     ####################
@@ -97,7 +88,7 @@ function banner(){
     $bannerthr .="\n\t| | | |  _  |  |  _  | |_| |_ ___ ___| |_ ___ ___ ";
     $bannerthr .="\n\t| | | |   __|  |     |  _|  _| .'|  _| '_| -_|  _|";
     $bannerthr .="\n\t|_____|__|     |__|__|_| |_| |__,|___|_,_|___|_|  \n";
-    $bannerthr .="\n\t\t WP Attacker v4 - By Hannibal Ksa\n\n\n";
+    $bannerthr .="\n\t\t WP Attacker v4 - R00T3Rz\n\n\n";
     #####################
     ##  FOURTH BANNER  ##
     #####################
@@ -107,7 +98,7 @@ function banner(){
     $bannerfor .="\n\t| |/\| |  __/  |  _  | __| __/ _` |/ __| |/ / _ \ '__|";
     $bannerfor .="\n\t\  /\  / |     | | | | |_| || (_| | (__|   <  __/ |   ";
     $bannerfor .="\n\t \/  \/\_|     \_| |_/\__|\__\__,_|\___|_|\_\___|_|   \n";
-    $bannerfor .="\n\t\t    WP Attacker v4 - By Hannibal Ksa\n\n\n";
+    $bannerfor .="\n\t\t    WP Attacker v4 - R00T3Rz\n\n\n";
     ####################
     ##  FIFTH BANNER  ##
     ####################
@@ -117,7 +108,7 @@ function banner(){
     $bannerfiv .="\n\t██║███╗██║██╔═══╝     ██╔══██║   ██║      ██║   ██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗";
     $bannerfiv .="\n\t╚███╔███╔╝██║         ██║  ██║   ██║      ██║   ██║  ██║╚██████╗██║  ██╗███████╗██║  ██║";
     $bannerfiv .="\n\t ╚══╝╚══╝ ╚═╝         ╚═╝  ╚═╝   ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝\n\n";
-    $bannerfiv .="\t\t\t\t WP Attacker v4 - By Hannibal Ksa\n\n\n";
+    $bannerfiv .="\t\t\t\t WP Attacker v4 - R00T3Rz\n\n\n";
     #########################################
     ##   GET A RANDOME BANNER & PRINT IT   ##
     ##         METASPLOIT SWAG :-P         ##
@@ -129,18 +120,9 @@ function noblackhat(){
     ##################
     ##  DISCLAIMER  ##
     ##################
-    print "\n\t ______________________________________________";
-    print "\n\t|    ____                        __  ______    |";
-    print "\n\t|   / ___|_ __ ___  _   _ _ __   \ \/ /  _ \   |";
-    print "\n\t|  | |  _| '__/ _ \| | | | '_ \   \  /| |_) |  |";
-    print "\n\t|  | |_| | | | (_) | |_| | |_) |  /  \|  __/   |";
-    print "\n\t|   \____|_|  \___/ \__,_| .__/  /_/\_\_|      |";
-    print "\n\t|                        |_|ALM3REFH.com       |";
-    print "\n\t|                                              |";
     print "\n\t+----------------------------------------------+";
-    print "\n\t|       WP Attacker v4 - By Hannibal Ksa       |";
+    print "\n\t|       WP Attacker v4 - By R00T3Rz       |";
     print "\n\t+----------------------------------------------+\n\n";
-    print "\n\t\t    !! NO SHIA / ONLY SUNNAH !!\n\n";
     ###########################
     ##  5 SECONDS DISCLAIMER ##
     ###########################
@@ -751,7 +733,7 @@ if(in_array($what, $choice)){
         bye(); 
     }
 }
-#####################################
-##  © ALM3REFH.COM 2014 - CHEERS!  ##
-#####################################
+####################################
+##  © R00T3Rz.COM 2014 - CHEERS!  ##
+####################################
 ?>
