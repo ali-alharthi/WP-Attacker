@@ -1,10 +1,8 @@
 WP-Attacker V4
 ===========
-
-    © Group XP 2014
     
-    Coder : Hannibal Ksa (@r00t3rz)
-    Home  : alm3refh.com
+    Coder : Ali (@r00t3rz)
+    Home  : r00t3rz.com
     
     What's WP Attacker:
     - Scan the server's websites, and filter the ones that are using WorePress (Using Bing search engin [API]).
@@ -31,5 +29,4 @@ WP-Attacker V4
     
     Thanks and enjoy.
     
-    And stay tuned!
-    Best regards, Ali (aka Hannibal Ksa).
+    Best regards, Ali.
